@@ -44,12 +44,10 @@ public class CompetitorService {
         competitor.setSprintPoints(body.getSprintPoints());
         competitor.setTotalTime(body.getTotalTime());
         competitor.setImageUrl(body.getImageUrl());
-       // competitor.setTeam(body.getTeam());
         competitor.setTeam(body.getTeam());
         competitorRepo.save(competitor);
         return new CompetitorResponse(competitor);
     }
-
     public void deleteCompetitor(int competitorId){
         competitorRepo.deleteById(competitorId);
     }
