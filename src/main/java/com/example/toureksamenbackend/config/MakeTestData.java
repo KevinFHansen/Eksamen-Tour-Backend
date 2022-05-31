@@ -34,26 +34,26 @@ public class MakeTestData implements ApplicationRunner {
 //        Team team6 = new Team("Cofidis", 0, "France");
 
         //TEAM JUMBO-VISMA
-        Competitor competitor1 = new Competitor("Sepp", "Kuss", 27, "United States", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/bf/sepp-kuss-2022.jpeg");
-        Competitor competitor2 = new Competitor("Tiesj", "Benoot", 28, "Belgium", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ba/tiesj-benoot-2022.jpeg");
-        Competitor competitor3 = new Competitor("Jonas", "Vingegaard", 25, "Denmark", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ea/jonas-vingegaard-rasmussen-2022.jpeg");
-        Competitor competitor4 = new Competitor("Rohan", "Dennis", 32, "Australia", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/cb/rohan-dennis-2022.jpeg");
-        Competitor competitor5 = new Competitor("Wout", "Aert", 27, "Belgium", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ea/wout-van-aert-2022.jpeg");
+        Competitor competitor1 = new Competitor("Sepp", "Kuss", 27, "United States", 14, 2, 200 ,"https://www.procyclingstats.com/images/riders/bp/bf/sepp-kuss-2022.jpeg");
+        Competitor competitor2 = new Competitor("Tiesj", "Benoot", 28, "Belgium", 22, 12, 240 ,"https://www.procyclingstats.com/images/riders/bp/ba/tiesj-benoot-2022.jpeg");
+        Competitor competitor3 = new Competitor("Jonas", "Vingegaard", 25, "Denmark", 0, 20, 555 ,"https://www.procyclingstats.com/images/riders/bp/ea/jonas-vingegaard-rasmussen-2022.jpeg");
+        Competitor competitor4 = new Competitor("Rohan", "Dennis", 32, "Australia", 10, 45, 192 ,"https://www.procyclingstats.com/images/riders/bp/cb/rohan-dennis-2022.jpeg");
+        Competitor competitor5 = new Competitor("Wout", "Aert", 27, "Belgium", 2, 44, 542 ,"https://www.procyclingstats.com/images/riders/bp/ea/wout-van-aert-2022.jpeg");
 
 
         // TEAM Quick-Step Alpha Vinyl Team
-        Competitor competitor6 = new Competitor("Michael", "Mørkøv", 37, "Denmark", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/fa/michael-morkov-2022.jpeg");
-        Competitor competitor7 = new Competitor("Yves", "Lampaert", 31, "Belgium", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/aa/yves-lampaert-2022.jpeg");
-        Competitor competitor8 = new Competitor("Tim", "Declercq", 33, "Belgium", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/fc/tim-declercq-2022.jpeg");
-        Competitor competitor9 = new Competitor("Julian", "Alaphilippe", 29, "France", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/bf/julian-alaphilippe-2022.jpeg");
-        Competitor competitor10 = new Competitor("Fabio", "Jakobsen", 25, "Denmark", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/df/fabio-jakobsen-2022.jpeg");
+        Competitor competitor6 = new Competitor("Michael", "Mørkøv", 37, "Denmark", 22, 34, 344 ,"https://www.procyclingstats.com/images/riders/bp/fa/michael-morkov-2022.jpeg");
+        Competitor competitor7 = new Competitor("Yves", "Lampaert", 31, "Belgium", 44, 44, 233 ,"https://www.procyclingstats.com/images/riders/bp/aa/yves-lampaert-2022.jpeg");
+        Competitor competitor8 = new Competitor("Tim", "Declercq", 33, "Belgium", 32, 10, 54 ,"https://www.procyclingstats.com/images/riders/bp/fc/tim-declercq-2022.jpeg");
+        Competitor competitor9 = new Competitor("Julian", "Alaphilippe", 29, "France", 33, 22, 234 ,"https://www.procyclingstats.com/images/riders/bp/bf/julian-alaphilippe-2022.jpeg");
+        Competitor competitor10 = new Competitor("Fabio", "Jakobsen", 25, "Denmark", 55, 66, 641 ,"https://www.procyclingstats.com/images/riders/bp/df/fabio-jakobsen-2022.jpeg");
 
         // TEAM Trek - Segafredo
-        Competitor competitor11 = new Competitor("Quinn", "Simmons", 21, "United States", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ac/quinn-simmons-2022.jpeg");
-        Competitor competitor12 = new Competitor("Jasper", "Stuyven", 30, "Belgium", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/aa/yves-lampaert-2022.jpeg");
-        Competitor competitor13 = new Competitor("Antwan", "Tolhoek", 28, "Netherlands", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/bd/antwan-tolhoek-2022.jpeg");
-        Competitor competitor14 = new Competitor("Bauke", "Mollema", 35, "Netherlands", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ca/bauke-mollema-2022.jpeg");
-        Competitor competitor15 = new Competitor("Mads ", "Pedersen", 26, "Denmark", 0, 0, 0 ,"https://www.procyclingstats.com/images/riders/bp/ca/mads-pedersen-2022.jpeg");
+        Competitor competitor11 = new Competitor("Quinn", "Simmons", 21, "United States", 55, 22, 333 ,"https://www.procyclingstats.com/images/riders/bp/ac/quinn-simmons-2022.jpeg");
+        Competitor competitor12 = new Competitor("Jasper", "Stuyven", 30, "Belgium", 66, 26, 211 ,"https://www.procyclingstats.com/images/riders/bp/aa/yves-lampaert-2022.jpeg");
+        Competitor competitor13 = new Competitor("Antwan", "Tolhoek", 28, "Netherlands", 77, 20, 202 ,"https://www.procyclingstats.com/images/riders/bp/bd/antwan-tolhoek-2022.jpeg");
+        Competitor competitor14 = new Competitor("Bauke", "Mollema", 35, "Netherlands", 88, 10, 320 ,"https://www.procyclingstats.com/images/riders/bp/ca/bauke-mollema-2022.jpeg");
+        Competitor competitor15 = new Competitor("Mads ", "Pedersen", 26, "Denmark", 45, 2, 602 ,"https://www.procyclingstats.com/images/riders/bp/ca/mads-pedersen-2022.jpeg");
 
         team1.addCompetitors(Set.of(competitor1,competitor2,competitor3,competitor4,competitor5));
         team2.addCompetitors(Set.of(competitor6,competitor7,competitor8,competitor9,competitor10));

@@ -3,6 +3,7 @@ package com.example.toureksamenbackend.service;
 import com.example.toureksamenbackend.dto.CompetitorRequest;
 import com.example.toureksamenbackend.dto.CompetitorResponse;
 import com.example.toureksamenbackend.entities.Competitor;
+import com.example.toureksamenbackend.error.Client4xxException;
 import com.example.toureksamenbackend.repositories.CompetitorRepo;
 import com.example.toureksamenbackend.repositories.TeamRepo;
 import org.springframework.stereotype.Service;
@@ -35,7 +36,7 @@ public class CompetitorService {
     }
 
     public CompetitorResponse editCompetitor(CompetitorRequest body, int competitorId){
-        Competitor competitor = competitorRepo.findById(competitorId).orElseThrow();
+        Competitor competitor = competitorRepo.findById(competitorId).orElseThrow(() -> new Client4xxException("No Competitor with that id"));
         competitor.setFirstName(body.getFirstName());
         competitor.setLastName(body.getLastName());
         competitor.setAge(body.getAge());
