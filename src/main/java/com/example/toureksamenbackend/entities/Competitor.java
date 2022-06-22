@@ -13,7 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Competitor {
 
-    @Id
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
